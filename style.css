@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.body {font-family: 'Ultra', serif; font-size: 130px; text-align: center; color: #bc0d1b;}
+
+
+@-webkit-keyframes red-c {
+	0% {margin-top:0;}
+	50% {margin-top: 200px;}
+	100% {margin-top: 0;}
+}
+.red-c {position: absolute; width: 100px; top: 150px; left: 650px;
+animation-name: red-c; animation-duration: 3s; 
+animation-timing-function: ease-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes green-c {
+	0% {margin-top:0;}
+	50% {margin-top: 400px;}
+	100% {margin-top: 0;}
+}
+.green-c {position: absolute; width: 100px; top: 350px; left: 100px;
+animation-name: green-c; animation-duration: 5s; 
+animation-timing-function: ease-in; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes purple-c {
+	0% {margin-top:0;}
+	50% {margin-top: -400px;}
+	100% {margin-top: 0;}
+}
+.purple-c {position: absolute; width: 100px; top: 850px; left: 300px;
+animation-name: purple-c; animation-duration: 6s; 
+animation-timing-function: ease-in; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes blue-c {
+	0% {margin-top:0;}
+	50% {margin-top: 400px;}
+	100% {margin-top: 0;}
+}
+.blue-c {position: absolute; width: 100px; top: 80px; left: 1700px;
+animation-name: blue-c; animation-duration: 7s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes orange-c { 
+	0% {margin-top:0;}
+	50% {margin-top: -300px;}
+	100% {margin-top: 0;}
+}
+.orange-c {position: absolute; width: 100px; top: 500px; left: 1400px;
+animation-name: orange-c; animation-duration: 5s; 
+animation-timing-function: ease-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes blue-p { 
+	0% {margin-top:0;}
+	50% {margin-top: -400px;}
+	100% {margin-top: 0;}
+}
+.blue-p {position: absolute; width: 120px; top: 550px; left: 450px;
+animation-name: blue-p; animation-duration: 10s; 
+animation-timing-function: ease-in-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes white-p { 
+	0% {margin-top:0;}
+	50% {margin-top: 300px;}
+	100% {margin-top: 0;}
+}
+.white-p {position: absolute; width: 120px; top: 250px; left: 1200px;
+animation-name: white-p; animation-duration: 8s; 
+animation-timing-function: ease-out; animation-iteration-count: infinite;}
+
+
+@-webkit-keyframes red-p { 
+	0% {margin-top:0;}
+	50% {margin-top: -500px;}
+	100% {margin-top: 0;}
+}
+.red-p {position: absolute; width: 120px; top: 750px; left: 1600px;
+animation-name: red-p; animation-duration: 6s; 
+animation-timing-function: ease-in; animation-iteration-count: infinite;}
